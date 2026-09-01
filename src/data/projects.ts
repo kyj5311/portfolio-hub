@@ -30,7 +30,7 @@ export const projects: Project[] = [
     subtitle: "CodyUp",
     context: "교내 해커톤",
     period: "2026.07.01 - 2026.07.21",
-    role: "개발 리드 · BE2 — 구매 로드맵 · AI 코디 코칭",
+    role: "개발 리드 · BE — 구매 로드맵 · AI 코디 코칭",
     summary: "옷장 데이터·퍼스널컬러·체형을 기반으로 예산 안에서 살 옷 우선순위를 제시하고, 지금 옷장만으로 만들 수 있는 코디를 점수와 함께 평가·추천하는 AI 스타일링 서비스.",
     stack: ["React", "TypeScript", "Node.js", "Express", "MySQL", "Prisma"],
     href: "https://claude.ai/code/artifact/0f262271-c775-49c2-b935-bce35930a997",
@@ -42,7 +42,7 @@ export const projects: Project[] = [
     subtitle: "Pizzly",             // 없으면 이 줄 생략 가능
     context: "중앙 헤커톤",                     // "중앙해커톤", "기업연계해커톤" 등
     period: "2026.07.23 - 2026.08.25",                     // 또는 "2026.09.01 - 2026.09.15"
-    role: "맡은 역할",
+    role: "개발 리드 · BE",
     summary: "틈새시간을 웰니스 시간으로 바꿔주는 성장형 캐릭터 웰니스 서비스",
     stack: ["React", "TypeScript", "MySQL", "Tailwind CSS", "Node.js", "Express.js", "MySQL", "Vercel", "Prisma"],
     href: "https://pizzly-three.vercel.app",
