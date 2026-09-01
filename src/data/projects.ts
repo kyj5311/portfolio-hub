@@ -30,10 +30,37 @@ export const projects: Project[] = [
     subtitle: "CodyUp",
     context: "교내 해커톤",
     period: "2026.07.01 - 2026.07.21",
-    role: "개발 리드 · 백엔드 (BE2 — 구매 로드맵 · AI 코디 코칭)",
-    summary:
-      "AI가 옷장을 분석해 다음에 살 옷을 추천하고, 코디 피드백을 코칭해주는 AI 스타일링 매니지먼트 서비스.",
-    stack: ["Spring Boot", "AI/LLM", "REST API"],
+    role: "개발 리드 · BE2 — 구매 로드맵 · AI 코디 코칭",
+    summary: "옷장 데이터·퍼스널컬러·체형을 기반으로 예산 안에서 살 옷 우선순위를 제시하고, 지금 옷장만으로 만들 수 있는 코디를 점수와 함께 평가·추천하는 AI 스타일링 서비스.",
+    stack: ["React", "TypeScript", "Node.js", "Express", "MySQL", "Prisma"],
     href: "https://claude.ai/code/artifact/0f262271-c775-49c2-b935-bce35930a997",
+    accent: "#33456b",
+  },
+  {
+    id: "pizzly",          // URL에는 안 쓰이지만 고유값이어야 함
+    title: "피즐리",
+    subtitle: "Pizzly",             // 없으면 이 줄 생략 가능
+    context: "중앙 헤커톤",                     // "중앙해커톤", "기업연계해커톤" 등
+    period: "2026.07.23 - 2026.08.25",                     // 또는 "2026.09.01 - 2026.09.15"
+    role: "맡은 역할",
+    summary: "틈새시간을 웰니스 시간으로 바꿔주는 성장형 캐릭터 웰니스 서비스",
+    stack: ["React", "TypeScript", "MySQL", "Tailwind CSS", "Node.js", "Express.js", "MySQL", "Vercel", "Prisma"],
+    href: "https://pizzly-three.vercel.app",
   },
 ];
+
+
+
+// {
+//   id: "animal-league-project",          // URL에는 안 쓰이지만 고유값이어야 함
+//   title: "프로젝트 이름",
+//   subtitle: "영문/짧은 이름",             // 없으면 이 줄 생략 가능
+//   context: "동아리",                     // "중앙해커톤", "기업연계해커톤" 등
+//   period: "2026.09",                     // 또는 "2026.09.01 - 2026.09.15"
+//   role: "맡은 역할",
+//   summary: "한두 문장 요약.",
+//   stack: ["사용 기술", "태그"],
+//   href: "https://claude.ai/code/artifact/딥다이브-문서-id",
+//   // accent: "#4ade80",                  // 선택: 이 카드만 다른 포인트 컬러 쓰고 싶을 때
+//   // status: "수상",                     // 선택: 뱃지 텍스트
+// },
