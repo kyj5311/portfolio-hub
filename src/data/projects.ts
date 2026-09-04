@@ -42,7 +42,7 @@ export const projects: Project[] = [
     subtitle: "Pizzly",
     context: "중앙해커톤",
     period: "2026.07.23 - 2026.08.25",
-    role: "개발 리드 · BE",
+    role: "개발 리드 · BE - 추천 엔진 · 성장 로직 · PWA 베포",
     summary: "틈새시간을 웰니스 시간으로 바꿔주는 성장형 캐릭터 웰니스 서비스. 규칙 기반 퀘스트 추천 엔진과 성장 로직을 설계하고, 팀 통합·배포까지 리드했습니다.",
     stack: ["React", "TypeScript", "Vite", "Tailwind CSS", "Node.js", "Express", "MySQL", "Prisma", "PWA", "Vercel"],
     href: "https://claude.ai/code/artifact/a5929355-6235-41be-bab9-e04a42da67aa",
