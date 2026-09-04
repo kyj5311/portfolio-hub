@@ -37,15 +37,15 @@ export const projects: Project[] = [
     accent: "#33456b",
   },
   {
-    id: "pizzly",          // URL에는 안 쓰이지만 고유값이어야 함
+    id: "pizzly",
     title: "피즐리",
-    subtitle: "Pizzly",             // 없으면 이 줄 생략 가능
-    context: "중앙 헤커톤",                     // "중앙해커톤", "기업연계해커톤" 등
-    period: "2026.07.23 - 2026.08.25",                     // 또는 "2026.09.01 - 2026.09.15"
+    subtitle: "Pizzly",
+    context: "중앙해커톤",
+    period: "2026.07.23 - 2026.08.25",
     role: "개발 리드 · BE",
-    summary: "틈새시간을 웰니스 시간으로 바꿔주는 성장형 캐릭터 웰니스 서비스",
-    stack: ["React", "TypeScript", "MySQL", "Tailwind CSS", "Node.js", "Express.js", "MySQL", "Vercel", "Prisma"],
-    href: "https://pizzly-three.vercel.app",
+    summary: "틈새시간을 웰니스 시간으로 바꿔주는 성장형 캐릭터 웰니스 서비스. 규칙 기반 퀘스트 추천 엔진과 성장 로직을 설계하고, 팀 통합·배포까지 리드했습니다.",
+    stack: ["React", "TypeScript", "Vite", "Tailwind CSS", "Node.js", "Express", "MySQL", "Prisma", "PWA", "Vercel"],
+    href: "https://claude.ai/code/artifact/a5929355-6235-41be-bab9-e04a42da67aa",
   },
 ];
 
