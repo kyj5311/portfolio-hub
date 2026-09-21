@@ -47,6 +47,17 @@ export const projects: Project[] = [
     stack: ["React", "TypeScript", "Vite", "Tailwind CSS", "Node.js", "Express", "MySQL", "Prisma", "PWA", "Vercel"],
     href: "https://claude.ai/code/artifact/a5929355-6235-41be-bab9-e04a42da67aa",
   },
+  {
+    id: "damoa-wms",
+    title: "DaMoA WMS",
+    context: "텀 프로젝트 (데이터베이스)",
+    period: "2026.05.01 - 2026.06.21",
+    role: "1인 개발 (기획 · 설계 · 구현 · 보고서)",
+    summary: "아버지의 부산 전통시장 신발 소매점을 위한 경량 재고 관리 시스템. 계층형 아키텍처와 임베디드 DB로 설계·구현한 솔로 프로젝트.",
+    stack: ["Python", "Flet", "DuckDB", "pandas"],
+    href: "https://claude.ai/artifact/Ca2pFZsuhmqSkibW2xMT5r",
+    accent: "#2563EB",
+  },
 ];
 
 
