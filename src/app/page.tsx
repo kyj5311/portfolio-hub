@@ -1,5 +1,6 @@
 import { profile } from "@/data/profile";
 import { projects } from "@/data/projects";
+import { certifications } from "@/data/certifications";
 import { ProjectCard } from "@/components/ProjectCard";
 
 export default function Home() {
@@ -45,6 +46,34 @@ export default function Home() {
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
+      </section>
+
+      <section className="mt-20 flex flex-col gap-6">
+        <div className="flex items-baseline justify-between">
+          <h2 className="text-sm font-medium tracking-wide text-muted-dim uppercase">
+            Certifications
+          </h2>
+          <span className="font-mono text-xs text-muted-dim">
+            {String(certifications.length).padStart(2, "0")}
+          </span>
+        </div>
+
+        <ul className="flex flex-col divide-y divide-border rounded-2xl border border-border bg-surface">
+          {certifications.map((cert) => (
+            <li
+              key={cert.name}
+              className="flex flex-col gap-1 px-6 py-4 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6"
+            >
+              <div className="flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:gap-3">
+                <span className="text-sm font-medium text-foreground sm:text-base">
+                  {cert.name}
+                </span>
+                <span className="text-xs text-muted-dim sm:text-sm">{cert.issuer}</span>
+              </div>
+              <span className="shrink-0 font-mono text-xs text-muted">{cert.date}</span>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <footer className="mt-24 border-t border-border pt-8 text-xs text-muted-dim">
