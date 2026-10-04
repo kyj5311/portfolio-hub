@@ -33,7 +33,7 @@ export const projects: Project[] = [
     role: "개발 리드 · BE — 구매 로드맵 · AI 코디 코칭",
     summary: "옷장 데이터·퍼스널컬러·체형을 기반으로 예산 안에서 살 옷 우선순위를 제시하고, 지금 옷장만으로 만들 수 있는 코디를 점수와 함께 평가·추천하는 AI 스타일링 서비스.",
     stack: ["React", "TypeScript", "Node.js", "Express", "MySQL", "Prisma"],
-    href: "https://claude.ai/code/artifact/0f262271-c775-49c2-b935-bce35930a997",
+    href: "https://eggplant-tiglon-fa0.notion.site/3eebe414a28881b49852f4a5ad26b6a9",
     accent: "#33456b",
   },
   {
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     role: "개발 리드 · BE - 추천 엔진 · 성장 로직 · PWA 베포",
     summary: "틈새시간을 웰니스 시간으로 바꿔주는 성장형 캐릭터 웰니스 서비스. 규칙 기반 퀘스트 추천 엔진과 성장 로직을 설계하고, 팀 통합·배포까지 리드했습니다.",
     stack: ["React", "TypeScript", "Vite", "Tailwind CSS", "Node.js", "Express", "MySQL", "Prisma", "PWA", "Vercel"],
-    href: "https://claude.ai/code/artifact/a5929355-6235-41be-bab9-e04a42da67aa",
+    href: "https://eggplant-tiglon-fa0.notion.site/3eebe414a28881939c54d620ec863af8",
   },
   {
     id: "damoa-wms",
@@ -55,7 +55,7 @@ export const projects: Project[] = [
     role: "1인 개발 (기획 · 설계 · 구현 · 보고서)",
     summary: "아버지의 부산 전통시장 신발 소매점을 위한 경량 재고 관리 시스템. 계층형 아키텍처와 임베디드 DB로 설계·구현한 솔로 프로젝트.",
     stack: ["Python", "Flet", "DuckDB", "pandas"],
-    href: "https://claude.ai/artifact/Ca2pFZsuhmqSkibW2xMT5r",
+    href: "https://eggplant-tiglon-fa0.notion.site/DaMoA-WMS-3eebe414a288816cade4da5a056cfbfb",
     accent: "#2563EB",
   },
 ];

@@ -1,7 +1,12 @@
 import type { Project } from "@/data/projects";
 
 export function ProjectCard({ project }: { project: Project }) {
-  const accent = project.accent ?? "var(--accent)";
+  // Per-project accents are picked from each project's own (often dark/muted) palette,
+  // so lighten them toward white for use on this site's dark surfaces — keeps them
+  // legible without changing the hex stored in projects.ts.
+  const accent = project.accent
+    ? `color-mix(in srgb, ${project.accent} 60%, white)`
+    : "var(--accent)";
 
   return (
     <a
@@ -12,7 +17,7 @@ export function ProjectCard({ project }: { project: Project }) {
     >
       <span
         aria-hidden
-        className="absolute inset-x-0 top-0 h-px rounded-t-2xl opacity-70"
+        className="absolute inset-x-0 top-0 h-px rounded-t-2xl"
         style={{ background: accent }}
       />
 
@@ -20,7 +25,7 @@ export function ProjectCard({ project }: { project: Project }) {
         <div className="flex flex-wrap items-center gap-2 text-xs text-muted">
           <span
             className="rounded-full px-2.5 py-1 font-medium"
-            style={{ background: `color-mix(in srgb, ${accent} 16%, transparent)`, color: accent }}
+            style={{ background: `color-mix(in srgb, ${accent} 20%, transparent)`, color: accent }}
           >
             {project.context}
           </span>
